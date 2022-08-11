@@ -1,18 +1,18 @@
-// print names 5 times
+// linearly from n to 1
 #include <bits/stdc++.h>
 using namespace std;
 void names(int count)
 {
-    if (count == 5)
+    if (count == 0)
     {
         return;
     }
-    count++;
-    cout << count << " lokesh pandey" << endl;
+    cout << count << endl;
+    count--;
     names(count);
 }
 int main()
 {
-    names(0);
+    names(10);
     return 0;
 }
