@@ -6,6 +6,7 @@ void submission(int n, int sum)
 {
     if (n == 0)
     {
+        cout << "answer is " << sum;
         return;
     }
     sum = sum + n;
