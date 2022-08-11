@@ -1,4 +1,4 @@
-// linearly from n to 1
+// backtracking
 #include <bits/stdc++.h>
 using namespace std;
 void names(int count)
@@ -7,9 +7,9 @@ void names(int count)
     {
         return;
     }
-    cout << count << endl;
     count--;
     names(count);
+    cout << count << endl;
 }
 int main()
 {
