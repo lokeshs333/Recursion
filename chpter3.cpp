@@ -11,7 +11,7 @@ void submission(int n, int sum)
     }
     sum = sum + n;
     n--;
-    cout << "answer is " << sum;
+//     cout << "answer is " << sum;
     submission(n, sum);
 }
 int main()
